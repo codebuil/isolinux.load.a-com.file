@@ -9,7 +9,7 @@ cd gcc
 wget https://ftp.gnu.org/gnu/gcc/gcc-10.1.0/gcc-10.1.0.tar.gz 
 tar -xvf gcc-10.1.0.tar.gz
 cd gcc-10.1.0
-./configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
+./configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ 
 make all-gcc
 make all-target-libgcc
 make install-gcc
