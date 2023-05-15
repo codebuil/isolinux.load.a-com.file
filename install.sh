@@ -1,4 +1,8 @@
 printf "\033c\033[44;30m\n"
+mkdir $HOME/src
+cd $HOME/src
+mkdir $HOME/src/cross
+cd $HOME/src/cross
 sudo apt-get install  gcc
 sudo apt-get install   make
 sudo apt-get install  bison
