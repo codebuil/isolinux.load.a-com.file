@@ -9,11 +9,8 @@ cd gcc
 wget https://ftp.gnu.org/gnu/gcc/gcc-10.1.0/gcc-10.1.0.tar.gz 
 tar -xvf gcc-10.1.0.tar.gz
 cd gcc-10.1.0
-./configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --with-gmp --with-mpfr --with-mpc 
-cd gcc
-make  " " "i386-pc-elf"
-install
-cd .. 
-cd libgcc
-make " " "i386-pc-elf"
-install
+./configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
+make all-gcc
+make all-target-libgcc
+make install-gcc
+make install-target-libgcc
