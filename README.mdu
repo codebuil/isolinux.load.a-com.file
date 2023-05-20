@@ -1,3 +1,4 @@
 # ELKS.LINUX.UTILITYS
 
 utilitys to test elks on a qemu emulator
+download.sh to get the .img from the github elks site
