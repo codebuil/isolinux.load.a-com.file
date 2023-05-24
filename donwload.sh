@@ -1,1 +1,0 @@
-wget "https://github.com/jbruchon/elks/releases/download/v0.6.0/fd1440.img"
