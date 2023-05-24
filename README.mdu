@@ -4,5 +4,5 @@ utilitys to test elks on a qemu emulator
 download.sh to get the .img from the github elks site out.img to copy .bas programs and bashs to the home directory, use: mount 
 /dev/fd1 /mnt/fdb
 to mount the copy files
-last update: mount creates a harddisk than can be used as a x86 microcontroler 145Mb
-elks source code site : https://github.com/jbruchon/elks
+
+
