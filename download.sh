@@ -1,1 +1,1 @@
-wget "https://cdimage.debian.org/mirror/cdimage/archive/3.1_r0/i386/iso-cd/debian-31r0-i386-netinst.iso"
+wget "https://cdimage.debian.org/mirror/cdimage/archive/3.0_r6/i386/iso-dvd/debian-30r6-dvd-i386-binary-1.iso"
