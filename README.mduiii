@@ -3,8 +3,7 @@
 dosbox gcc project 
 call int,10,0,0x13
 
-
-https://www.delorie.com/djgpp/doc/dpmi/api/310300.html
+https://www.delorie.com/djgpp/doc/dpmi/ch4.4.1.html
 
 
 
