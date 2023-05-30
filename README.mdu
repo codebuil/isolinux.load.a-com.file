@@ -1,6 +1,7 @@
 # call.v8086 mode from protected mode
 
 dosbox gcc project 
+call int,10,0,0x13
 
 
 
