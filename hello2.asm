@@ -1,4 +1,4 @@
-org 100
+org 100h
 head:
 mov ax,0
 mov ebx,0b8000h
