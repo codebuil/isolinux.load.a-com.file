@@ -1,5 +1,5 @@
 bcc -c -Md libdos.c -o libdos.a
-bcc -x -i -L -Md hello.c -o hello.com
+bcc -x -i -L -Md hline.c -o hello.com
 mkdir -p CD_root/isolinux
 mkdir -p CD_root/images
 mkdir -p CD_root/kernel
